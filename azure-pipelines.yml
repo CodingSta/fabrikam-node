@@ -3,7 +3,7 @@
   jobs:  
   - job: Build
     displayName: Build
-    - task: NodeTool@0
+    - task: NodeTool@
       inputs:
         versionSpec: '10.x'
       displayName: 'Install Node.js'
